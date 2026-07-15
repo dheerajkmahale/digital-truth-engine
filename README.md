@@ -1,73 +1,125 @@
+# 📰 Digital Truth Engine
 
+An AI-powered fact-checking platform that detects misinformation, verifies news credibility, and provides explainable results using Natural Language Processing (NLP) and Machine Learning.
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/8c860790-3566-4d4f-862a-097538342f32
+## 🚀 Overview
 
-## How can I edit this code?
+Digital Truth Engine helps users identify fake news and misleading content by analyzing text, comparing it with trusted sources, and generating a credibility score with explainable AI insights.
 
-There are several ways of editing your application.
+The platform aims to improve digital literacy and combat misinformation through intelligent content verification.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8c860790-3566-4d4f-862a-097538342f32) and start prompting.
+## ✨ Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- 📰 Fake News Detection
+- 🤖 AI-powered Fact Verification
+- 📊 Credibility Score Analysis
+- 🧠 NLP-based Text Processing
+- 🔍 Keyword & Source Analysis
+- 📈 Interactive Dashboard
+- ⚡ Real-time Content Verification
+- 🌐 Responsive Web Interface
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Frontend
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
 
-Follow these steps:
+### Backend
+- Node.js
+- Express.js
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Database
+- PostgreSQL
+- Supabase
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### AI & Machine Learning
+- Python
+- NLP
+- Scikit-learn
+- TensorFlow
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 📂 Project Structure
+
+```text
+digital-truth-engine/
+├── public/
+├── src/
+├── README.md
+├── package.json
+└── vite.config.ts
+```
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/dheerajkmahale/digital-truth-engine.git
+
+cd digital-truth-engine
+
+npm install
+
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🎯 Use Cases
 
-**Use GitHub Codespaces**
+- Fake News Detection
+- Fact Verification
+- Media Monitoring
+- Educational Platforms
+- Journalism
+- Research & Content Analysis
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📸 Screenshots
 
-This project is built with:
+Include screenshots of:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- 🏠 Home Page
+- 🤖 AI Analysis
+- 📊 Credibility Dashboard
+- 📰 News Verification
+- 📈 Analytics
+- 📑 Verification Report
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/8c860790-3566-4d4f-862a-097538342f32) and click on Share -> Publish.
+## 🔮 Future Enhancements
 
-## Can I connect a custom domain to my Lovable project?
+- Multilingual fact-checking
+- Browser extension
+- Social media integration
+- Explainable AI (XAI)
+- Voice-based verification
+- Mobile application
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 👨‍💻 Author
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Dheeraj Kumar**
+
+- GitHub: https://github.com/dheerajkmahale
+- LinkedIn: https://www.linkedin.com/in/k-dheerajkumar-6a3b14248/
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
