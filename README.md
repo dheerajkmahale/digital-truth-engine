@@ -1,125 +1,28 @@
-# 📰 Digital Truth Engine
+# Digital Truth Engine: Fake News Detection
 
-An AI-powered fact-checking platform that detects misinformation, verifies news credibility, and provides explainable results using Natural Language Processing (NLP) and Machine Learning.
+## Problem
+Combating the spread of misinformation and fake news by programmatically assessing the veracity of textual content.
 
----
+## Approach
+- **TF-IDF Vectorization**: Transforms text data into numerical representations (TF-IDF features) that capture the importance of words within a document relative to a corpus.
+- **Naive Bayes Classifier**: A probabilistic machine learning model (Multinomial Naive Bayes) trained to classify text as either "real" or "fake" news based on its vectorized features.
 
-## 🚀 Overview
+## Dataset
+Synthetic text dataset containing example phrases labeled as "real" or "fake" news.
 
-Digital Truth Engine helps users identify fake news and misleading content by analyzing text, comparing it with trusted sources, and generating a credibility score with explainable AI insights.
+## Results
+- **Accuracy**: 100% (on the small synthetic dataset)
 
-The platform aims to improve digital literacy and combat misinformation through intelligent content verification.
+## How to Run
+1. Install dependencies: `pip install -r requirements.txt`
+2. Run the detection script: `python detector.py`
 
----
-
-## ✨ Features
-
-- 📰 Fake News Detection
-- 🤖 AI-powered Fact Verification
-- 📊 Credibility Score Analysis
-- 🧠 NLP-based Text Processing
-- 🔍 Keyword & Source Analysis
-- 📈 Interactive Dashboard
-- ⚡ Real-time Content Verification
-- 🌐 Responsive Web Interface
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-- React
-- TypeScript
-- Tailwind CSS
-- Vite
-
-### Backend
-- Node.js
-- Express.js
-
-### Database
-- PostgreSQL
-- Supabase
-
-### AI & Machine Learning
+## Tech Stack
 - Python
-- NLP
-- Scikit-learn
-- TensorFlow
+- scikit-learn
+- NumPy
+- Pandas
 
----
-
-## 📂 Project Structure
-
-```text
-digital-truth-engine/
-├── public/
-├── src/
-├── README.md
-├── package.json
-└── vite.config.ts
-```
-
----
-
-## 🚀 Installation
-
-```bash
-git clone https://github.com/dheerajkmahale/digital-truth-engine.git
-
-cd digital-truth-engine
-
-npm install
-
-npm run dev
-```
-
----
-
-## 🎯 Use Cases
-
-- Fake News Detection
-- Fact Verification
-- Media Monitoring
-- Educational Platforms
-- Journalism
-- Research & Content Analysis
-
----
-
-## 📸 Screenshots
-
-Include screenshots of:
-
-- 🏠 Home Page
-- 🤖 AI Analysis
-- 📊 Credibility Dashboard
-- 📰 News Verification
-- 📈 Analytics
-- 📑 Verification Report
-
----
-
-## 🔮 Future Enhancements
-
-- Multilingual fact-checking
-- Browser extension
-- Social media integration
-- Explainable AI (XAI)
-- Voice-based verification
-- Mobile application
-
----
-
-## 👨‍💻 Author
-
-**Dheeraj Kumar**
-
-- GitHub: https://github.com/dheerajkmahale
-- LinkedIn: https://www.linkedin.com/in/k-dheerajkumar-6a3b14248/
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
+## Project Structure
+- `detector.py`: Script for synthetic data generation, TF-IDF vectorization, Naive Bayes model training, and text classification.
+- `requirements.txt`: Python package dependencies.
