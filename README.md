@@ -11,7 +11,7 @@ Combating the spread of misinformation and fake news by programmatically assessi
 Synthetic text dataset containing example phrases labeled as "real" or "fake" news.
 
 ## Results
-- **Accuracy**: 100% (on the small synthetic dataset)
+- **Accuracy**: High accuracy (>90%) on a small proof-of-concept dataset — not yet validated on real-world data.
 
 ## How to Run
 1. Install dependencies: `pip install -r requirements.txt`
